@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>კონტაქტი</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>ჩემი საიტი</h1>
+
+        <nav>
+            <a href="index.html">მთავარი</a>
+            <a href="contact.html">კონტაქტი</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-wrapper">
+
+            <form class="contact-form">
+                <h2>✉️ მოგვწერე</h2>
+
+                <label for="name">სახელი</label>
+                <input type="text" id="name" placeholder="შენი სახელი" required>
+
+                <label for="email">ელ-ფოსტა</label>
+                <input type="email" id="email" placeholder="შენი ელ-ფოსტა" required>
+
+                <label for="message">ტექსტი</label>
+                <textarea id="message" rows="6" placeholder="დაწერე შეტყობინება..." required></textarea>
+
+                <button type="submit">გაგზავნა</button>
+            </form>
+
+            <div class="contact-info">
+                <h2>📞 საკონტაქტო ინფორმაცია</h2>
+
+                <p><strong>ტელეფონი:</strong> +995 555 12 34 56</p>
+
+                <p><strong>ელ-ფოსტა:</strong> info@mysite.ge</p>
+
+                <p><strong>მისამართი:</strong> თბილისი, საქართველო</p>
+            </div>
+
+        </section>
+
+        <section class="map-section">
+            <h2>🗺️ ჩვენი მდებარეობა</h2>
+
+            <iframe
+                src="https://maps.google.com/maps?q=Tbilisi%20Georgia&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                width="100%"
+                height="400"
+                style="border:0;"
+                loading="lazy">
+            </iframe>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 ჩემი საიტი</p>
+    </footer>
+
+</body>
+</html>
